@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projets scolaires de Eric Nunes - Unity, Unreal, IA, C++">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#7c3aed">
+    <title>Projets Scolaires - Terazix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    </head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Logo Terazix" class="logo">
+                <span class="brand-name">Terazix</span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="projets-perso.html" class="nav-link">Projets Perso</a></li>
+                <li><a href="projets-scolaires.html" class="nav-link active">Projets Scolaires</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="burger" id="burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="projects-section">
+        <div class="container">
+            <h1 class="page-title glow-text">Projets Scolaires</h1>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="unity">Unity</button>
+                <button class="filter-btn" data-filter="unreal">Unreal</button>
+                <button class="filter-btn" data-filter="cpp">C++</button> </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card" data-category="unity school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/AlbDof.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">AlbDof</h3>
+                            <p class="project-subtitle">Projet Scolaire</p>
+                        </div>
+                        <p class="project-description">
+                            Prototype de MMORPG conçu pour la pratique des 3C (Character, Camera, Controller) et l'implémentation de systèmes de jeu complexes. La maquette intègre un système de combat complet (mains nues, équipement d'épée, spells), un système de récolte/inventaire/craft, et des PNJ avec des mécaniques de Boss/Mob.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Systèmes de Jeu  <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">C#</span>
+                            <span class="skill-bubble">Inventory Systems</span>
+                            <span class="skill-bubble">Combat Programming</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+                
+                <article class="project-card" data-category="unity school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/Dungeon.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Dungeon darkness</h3>
+                            <p class="project-subtitle">Projet Scolaire</p>
+                        </div>
+                        <p class="project-description">
+                            Un Dungeon Crawler procédural 3D en temps réel, développé sous Unity. Le cœur du projet réside dans la mise en place d'une génération de niveaux aléatoires et d'un système de combat au corps-à-corps dynamique.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Procédural & Gameplay </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">C#</span>
+                            <span class="skill-bubble">Procedural Generation</span>
+                            <span class="skill-bubble">State Machine</span>
+                            <span class="skill-bubble">IA</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="cpp school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/FPS.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">FPS</h3>
+                            <p class="project-subtitle">Projet Fondamental C++</p>
+                        </div>
+                        <p class="project-description">
+                           Premier prototype First-Person Shooter (FPS) développé en binôme sur une semaine. Ce projet d'initiation a été l'occasion de se concentrer sur l'acquisition et la maîtrise des principes de base du moteur Unity, comme la gestion des scènes, l'environnement 3D, et les interactions de base.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur FPS / Prototypage</p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">C#</span>
+                            <span class="skill-bubble">FPS Mechanics</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/Multi.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Persistence</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                            Implémentation de systèmes d'Intelligence Artificielle complexes (Behaviour Trees, EQS) pour des ennemis autonomes dans un environnement 3D.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> IA, Blueprint, C++ (Unreal)
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unreal Engine 5</span>
+                            <span class="skill-bubble">C++</span>
+                            <span class="skill-bubble">Behaviour Trees</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/IntroC#.png" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Introduction au c#</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                            Projet d'équipe (3 personnes, 1 semaine) conçu comme une introduction pratique au langage C# et à la logique de programmation orientée objet. L'objectif était de produire rapidement un prototype de mini-aventure simple pour valider l'acquisition des bases du langage.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Scripting & POO </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">C#</span>
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">Programmation Orientée Objet (POO)</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/Jeux libre.png" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Jeux libre</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                            Développement d'un jeu vidéo entièrement personnalisé en C++ en équipe (3 personnes, 4 semaines), utilisant la librairie légère et performante Raylib. Le projet a servi de banc d'essai pour l'intégration de la logique de jeu complexe, notamment un système de gestion des changements de climat pour l'enquête du détective.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Gameplay C++ </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">C++</span>
+                            <span class="skill-bubble">Raylib</span>
+                            <span class="skill-bubble">Gameplay Programming</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/Gestionprojet.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Gestion de projet</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                            Projet intensif d'une semaine (équipe de 4) visant à produire une maquette jouable démontrant un concept de gameplay unique. Le prototype met en scène un héros capable de grimpe murale dynamique pour naviguer dans l'environnement et éliminer les oppositions. Le projet a également intégré la gestion et la planification de la production.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Prototype <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">C#</span>
+                            <span class="skill-bubble">Prototypage Rapide</span>
+                            <span class="skill-bubble">Gameplay Programming</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/moteur.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Moteur</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                            Projet majeur de deuxième année consistant à développer un moteur de jeu 3D from scratch en C++. Le moteur repose sur une architecture Entity-Component-System (ECS) et utilise l'API DirectX 12 pour un contrôle optimal du pipeline de rendu GPU. Ce projet en équipe (3 personnes, 4 semaines) a permis de construire un pipeline de rendu complet et d'intégrer un jeu de démonstration.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Moteur Graphique (DX12) </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">DirectX12</span>
+                            <span class="skill-bubble">C++</span>
+                            <span class="skill-bubble">ECS</span>
+                            <span class="skill-bubble">Architecture Moteur</span>
+                            <span class="skill-bubble">Shaders (HLSL)</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/Multi.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Multijoueur</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                           Projet d'implémentation d'un jeu d'arène en vue top-down pour deux joueurs. Réalisé en binôme sur deux semaines, ce projet visait la compréhension approfondie et la mise en œuvre des principes fondamentaux du Netcode et de la synchronisation d'état entre les clients et le serveur.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Réseau & Gameplay <div class="project-skills">
+                            <span class="skill-bubble">SFML</span>
+                            <span class="skill-bubble">C++</span>
+                            <span class="skill-bubble">Multi-Threading</span>
+                            <span class="skill-bubble">WinSock2</span>
+                        </div>
+                         <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unreal school">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/RugbyMatch.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Rugby Match</h3>
+                            <p class="project-subtitle">Projet de Spécialisation IA</p>
+                        </div>
+                        <p class="project-description">
+                            Projet de jeu de réflexion entièrement autonome développé en binôme en C++ avec SFML sur une période de deux semaines. L'objectif principal était de concevoir et valider un système d'Intelligence Artificielle capable de jouer de manière optimale sur une grille de Match, sans aucune interaction humaine.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span>Développeur IA  </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">SFML</span>
+                            <span class="skill-bubble">C++</span>
+                            <span class="skill-bubble">NlohmannJSON</span>
+                            <span class="skill-bubble">IA autonome</span>
+                        </div>
+                        <!--div class="project-cta">
+                            <button class="btn-small btn-view" data-project="ai_arena_unreal">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <polygon points="5 3 19 12 5 21 5 3"/> </svg> Voir
+                            </button>
+                            <a href="#" class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"> <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/> <polyline points="7 10 12 15 17 10"/> <line x1="12" y1="15" x2="12" y2="3"/> </svg> Télécharger
+                            </a>
+                        </div-->
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+    
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <button id="lightboxClose" class="lightbox-close" aria-label="Fermer">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="lightbox-video-container">
+                <video id="lightboxVideo" controls>
+                    <source src="" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo HTML5.
+                </video>
+            </div>
+            <div class="lightbox-info">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDescription"></p>
+                <div id="lightboxSkills"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-name">Terazix - Eric Nunes</p>
+                    <p class="footer-contact">eric.nunes0610@gmail.com • +33 6 11 60 36 98</p>
+                </div>
+                <div class="footer-legal">
+                    <p class="footer-copyright">© 2025 Eric Nunes - Terazix</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

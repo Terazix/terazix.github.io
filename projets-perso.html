@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projets personnels de Eric Nunes - Prototypes Unity, systèmes IA et GameJam">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#7c3aed">
+    <title>Projets Personnels - Terazix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/logo.png" alt="Logo Terazix" class="logo">
+                <span class="brand-name">Terazix</span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="projets-perso.html" class="nav-link active">Projets Perso</a></li>
+                <li><a href="projets-scolaires.html" class="nav-link">Projets Scolaires</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="burger" id="burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h1 class="page-title glow-text">Projets Personnels</h1>
+            
+            <!-- Filtres -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="unity">Unity</button>
+                <button class="filter-btn" data-filter="unreal">Unreal</button>
+                <button class="filter-btn" data-filter="gamejam">GameJam</button>
+            </div>
+
+            <!-- Grille de projets -->
+            <div class="projects-grid">
+                <!-- Projet 1: Rush Runner -->
+                <article class="project-card" data-category="unity">
+                    <div class="project-media">
+                        <video 
+                            class="project-video" 
+                            poster="assets/videos/rush_runner_poster.jpg" 
+                            muted 
+                            loop 
+                            loading="lazy"
+                        >
+                            <source src="assets/videos/rush_runner.mp4" type="video/mp4">
+                            Vidéo de démonstration de Rush Runner
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Unreal</h3>
+                            <p class="project-subtitle">Prototype</p>
+                        </div>
+                        <p class="project-description">
+                            Prototype de jeu de parkour avec contrôles fluides et systèmes de mouvement avancés
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Gameplay, parkour controls
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">C#</span>
+                            <span class="skill-bubble">Input System</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-small btn-view" data-project="rush_runner">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                Voir
+                            </button>
+                            <a href="assets/downloads/rush_runner_build.zip" download class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 2: AI Arena -->
+                <article class="project-card" data-category="unity">
+                    <div class="project-media">
+                        <video 
+                            class="project-video" 
+                            poster="assets/videos/ai_arena_poster.jpg" 
+                            muted 
+                            loop 
+                            loading="lazy"
+                        >
+                            <source src="assets/videos/ai_arena.mp4" type="video/mp4">
+                            Vidéo de démonstration de AI Arena
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Unreal</h3>
+                            <p class="project-subtitle">Système IA</p>
+                        </div>
+                        <p class="project-description">
+                            Arène de combat avec IA avancée utilisant behaviour trees et pathfinding
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> AI, behaviour trees, pathfinding
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">NavMesh</span>
+                            <span class="skill-bubble">Behaviour Tree</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-small btn-view" data-project="ai_arena">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                Voir
+                            </button>
+                            <a href="assets/downloads/ai_arena_build.zip" download class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="unity gamejam">
+                    <div class="project-media">
+                        <video 
+                            class="project-video" 
+                            poster="assets/videos/neon_shift_poster.jpg" 
+                            muted 
+                            loop 
+                            loading="lazy"
+                        >
+                            <source src="assets/videos/Loko2.mp4" type="video/mp4">
+                            Vidéo de démonstration de Neon Shift
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Loko</h3>
+                            <p class="project-subtitle">GameJam</p>
+                        </div>
+                        <p class="project-description">
+                            Jeu développé en 48h avec esthétique néon et gameplay rapide
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Prototypage rapide, esthétique néon
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">GameJam</span>
+                            <span class="skill-bubble">Prototypage</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-small btn-view" data-project="neon_shift">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                Voir
+                            </button>
+                            <a href="assets/downloads/neon_shift_build.zip" download class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 3: Neon Shift -->
+                <article class="project-card" data-category="unity gamejam">
+                    <div class="project-media">
+                        <video class="project-video" 
+                               src="assets/videos/Puzzl.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Puzzle Game</h3>
+                            <p class="project-subtitle">GameJam</p>
+                        </div>
+                        <p class="project-description">
+                            Jeu développé en 48h avec esthétique néon et gameplay rapide
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Prototypage rapide, esthétique néon
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Unity</span>
+                            <span class="skill-bubble">GameJam</span>
+                            <span class="skill-bubble">Prototypage</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-small btn-view" data-project="neon_shift">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                Voir
+                            </button>
+                            <a href="assets/downloads/neon_shift_build.zip" download class="btn-small btn-download">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose" aria-label="Fermer">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="lightbox-video-container">
+                <video id="lightboxVideo" controls>
+                    <source src="" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo HTML5.
+                </video>
+            </div>
+            <div class="lightbox-info">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDescription"></p>
+                <div id="lightboxSkills"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-name">Terazix - Eric Nunes</p>
+                    <p class="footer-contact">eric.nunes0610@gmail.com • +33 6 11 60 36 98</p>
+                </div>
+                <div class="footer-legal">
+                    <p class="footer-copyright">© 2025 Eric Nunes - Terazix</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
