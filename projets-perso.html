@@ -23,7 +23,6 @@
                 <li><a href="index.html" class="nav-link">Accueil</a></li>
                 <li><a href="projets-perso.html" class="nav-link active">Projets Perso</a></li>
                 <li><a href="projets-scolaires.html" class="nav-link">Projets Scolaires</a></li>
-                <!--<li><a href="cv.html" class="nav-link">CV</a></li> -->
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
             
@@ -45,13 +44,13 @@
                 <button class="filter-btn active" data-filter="all">Tous</button>
                 <button class="filter-btn" data-filter="unity">Unity</button>
                 <button class="filter-btn" data-filter="unreal">Unreal</button>
-               <!-- <button class="filter-btn" data-filter="gamejam">GameJam</button>-->
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
             </div>
 
             <!-- Grille de projets -->
             <div class="projects-grid">
-                <!-- Projet 1: Rush Runner -->
-                <article class="project-card" data-category="unity">
+                <!-- Projet 1: TopDown Shooter (Unreal) -->
+                <article class="project-card" data-category="unreal">
                     <div class="project-media">
                         <video 
                             class="project-video" 
@@ -81,125 +80,10 @@
                             <span class="skill-bubble">Blueprints</span>
                             <span class="skill-bubble">Build & packaging</span>
                         </div>
-                      <!--  <div class="project-actions">
-                            <button class="btn-small btn-view" data-project="rush_runner">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polygon points="5 3 19 12 5 21 5 3"/>
-                                </svg>
-                                Voir
-                            </button>
-                            <a href="assets/downloads/rush_runner_build.zip" download class="btn-small btn-download">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                    <polyline points="7 10 12 15 17 10"/>
-                                    <line x1="12" y1="15" x2="12" y2="3"/>
-                                </svg>
-                                Télécharger
-                            </a>
-                        </div>-->
                     </div>
                 </article>
 
-                <!-- Projet 2: AI Arena -->
-               <!-- <article class="project-card" data-category="unity">
-                    <div class="project-media">
-                        <video 
-                            class="project-video" 
-                            poster="assets/videos/ai_arena_poster.jpg" 
-                            muted 
-                            loop 
-                            loading="lazy"
-                        >
-                            <source src="assets/videos/ai_arena.mp4" type="video/mp4">
-                            Vidéo de démonstration de AI Arena
-                        </video>
-                        <div class="media-overlay"></div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Unreal</h3>
-                            <p class="project-subtitle">Système IA</p>
-                        </div>
-                        <p class="project-description">
-                            Arène de combat avec IA avancée utilisant behaviour trees et pathfinding
-                        </p>
-                        <p class="project-role">
-                            <span class="role-label">Rôle :</span> AI, behaviour trees, pathfinding
-                        </p>
-                        <div class="project-skills">
-                            <span class="skill-bubble">Unity</span>
-                            <span class="skill-bubble">NavMesh</span>
-                            <span class="skill-bubble">Behaviour Tree</span>
-                        </div>
-                        <div class="project-actions">
-                            <button class="btn-small btn-view" data-project="ai_arena">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polygon points="5 3 19 12 5 21 5 3"/>
-                                </svg>
-                                Voir
-                            </button>
-                            <a href="assets/downloads/ai_arena_build.zip" download class="btn-small btn-download">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                    <polyline points="7 10 12 15 17 10"/>
-                                    <line x1="12" y1="15" x2="12" y2="3"/>
-                                </svg>
-                                Télécharger
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card" data-category="unity gamejam">
-                    <div class="project-media">
-                        <video 
-                            class="project-video" 
-                            poster="assets/videos/neon_shift_poster.jpg" 
-                            muted 
-                            loop 
-                            loading="lazy"
-                        >
-                            <source src="assets/videos/Loko2.mp4" type="video/mp4">
-                            Vidéo de démonstration de Neon Shift
-                        </video>
-                        <div class="media-overlay"></div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">Loko</h3>
-                            <p class="project-subtitle">GameJam</p>
-                        </div>
-                        <p class="project-description">
-                            Jeu développé en 48h avec esthétique néon et gameplay rapide
-                        </p>
-                        <p class="project-role">
-                            <span class="role-label">Rôle :</span> Prototypage rapide, esthétique néon
-                        </p>
-                        <div class="project-skills">
-                            <span class="skill-bubble">Unity</span>
-                            <span class="skill-bubble">GameJam</span>
-                            <span class="skill-bubble">Prototypage</span>
-                        </div>
-                        <div class="project-actions">
-                            <button class="btn-small btn-view" data-project="neon_shift">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polygon points="5 3 19 12 5 21 5 3"/>
-                                </svg>
-                                Voir
-                            </button>
-                            <a href="assets/downloads/neon_shift_build.zip" download class="btn-small btn-download">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                    <polyline points="7 10 12 15 17 10"/>
-                                    <line x1="12" y1="15" x2="12" y2="3"/>
-                                </svg>
-                                Télécharger
-                            </a>
-                        </div>
-                    </div>
-                </article> -->
-
-                <!-- Projet 3: Neon Shift -->
+                <!-- Projet 2: Puzzle Game (Unity) -->
                 <article class="project-card" data-category="unity">
                     <div class="project-media">
                         <video class="project-video" 
@@ -218,7 +102,8 @@
                             <p class="project-subtitle">Projet personnel</p>
                         </div>
                         <p class="project-description">
-                           Premier projet solo réalisé entièrement en dehors du cadre académique, suite à un coup de cœur pour le moteur Unity. Ce projet avait pour objectif principal l'apprentissage autodidacte du pipeline complet de développement de jeu : de la conception au packaging final. Il a permis d'explorer les bases de la physique, des mécaniques de jeu, et de la gestion de l'interface utilisateur (UI). </p>
+                           Premier projet solo réalisé entièrement en dehors du cadre académique, suite à un coup de cœur pour le moteur Unity. Ce projet avait pour objectif principal l'apprentissage autodidacte du pipeline complet de développement de jeu : de la conception au packaging final. Il a permis d'explorer les bases de la physique, des mécaniques de jeu, et de la gestion de l'interface utilisateur (UI).
+                        </p>
                         <p class="project-role">
                             <span class="role-label">Rôle :</span> Créateur & Developpeur
                         </p>
@@ -226,22 +111,72 @@
                             <span class="skill-bubble">Unity</span>
                             <span class="skill-bubble">C#</span>
                         </div>
-                       <!--<div class="project-actions">
-                            <button class="btn-small btn-view" data-project="neon_shift">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <polygon points="5 3 19 12 5 21 5 3"/>
-                                </svg>
-                                Voir
-                            </button>
-                            <a href="assets/downloads/neon_shift_build.zip" download class="btn-small btn-download">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                    <polyline points="7 10 12 15 17 10"/>
-                                    <line x1="12" y1="15" x2="12" y2="3"/>
-                                </svg>
-                                Télécharger
-                            </a>
-                        </div>--> 
+                    </div>
+                </article>
+
+                <!-- NOUVEAU Projet 3: Application SwiftUI (Mobile) -->
+                <article class="project-card mobile-project" data-category="mobile">
+                    <div class="project-media mobile-media">
+                        <video class="project-video mobile-video" 
+                               src="assets/videos/swiftui_app.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Application iOS</h3>
+                            <p class="project-subtitle">Développement Mobile - SwiftUI</p>
+                        </div>
+                        <p class="project-description">
+                            Application iOS native développée avec SwiftUI. Ce projet explore les patterns modernes de développement Apple, incluant la gestion d'état réactive, l'architecture MVVM, et l'intégration des APIs système iOS. L'application démontre une interface utilisateur fluide et responsive suivant les guidelines d'Apple.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur iOS
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">SwiftUI</span>
+                            <span class="skill-bubble">Swift</span>
+                            <span class="skill-bubble">iOS</span>
+                            <span class="skill-bubble">MVVM</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- NOUVEAU Projet 4: Application Flutter/Dart (Mobile) -->
+                <article class="project-card mobile-project" data-category="mobile">
+                    <div class="project-media mobile-media">
+                        <video class="project-video mobile-video" 
+                               src="assets/videos/flutter_app.mp4" 
+                               loop 
+                               autoplay 
+                               muted 
+                               playsinline>
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                        <div class="media-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Application Cross-Platform</h3>
+                            <p class="project-subtitle">Développement Mobile - Flutter</p>
+                        </div>
+                        <p class="project-description">
+                            Application multiplateforme développée avec Flutter et Dart. Ce projet met en œuvre le développement cross-platform moderne avec une seule base de code pour iOS et Android. L'application intègre des animations fluides, une gestion d'état avancée avec Provider/Riverpod, et démontre les capacités de Flutter pour créer des expériences utilisateur natives.
+                        </p>
+                        <p class="project-role">
+                            <span class="role-label">Rôle :</span> Développeur Mobile Full-Stack
+                        </p>
+                        <div class="project-skills">
+                            <span class="skill-bubble">Flutter</span>
+                            <span class="skill-bubble">Dart</span>
+                            <span class="skill-bubble">Cross-Platform</span>
+                            <span class="skill-bubble">Material Design</span>
+                        </div>
                     </div>
                 </article>
             </div>
